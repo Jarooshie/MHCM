@@ -224,7 +224,6 @@ function createTemp(icon,clr,currency,current)
 	
 	current.Changed:Connect(function()
 	    val = current.Value
-	    print(val,old)
 	    Current.Text = tostring(val)..currency
 	    if val < old then
 	        Changed.Text = "-"..tostring(math.abs(val-old))
