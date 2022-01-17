@@ -1,9 +1,9 @@
 if game.CoreGui:FindFirstChild("MHCM_") then
 	game.CoreGui["MHCM_"]:Destroy()
 end
-
+--
 local plr = game.Players.LocalPlayer
- 
+ --
 function dragify(Frame)
     local dragToggle = nil
     local dragSpeed = 0
