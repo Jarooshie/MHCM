@@ -58,7 +58,10 @@ local UIListLayout = Instance.new("UIListLayout")
 local UIPadding = Instance.new("UIPadding")
 local Credits = Instance.new("TextLabel")
 
-dragify(Main)
+Main = script.Parent.Frame
+Main.Draggable = true
+Main.Active = true
+Main.Selectable = true
 
 local stroke = Instance.new("UIStroke")
 stroke.Color = Color3.new(0,0,0)
